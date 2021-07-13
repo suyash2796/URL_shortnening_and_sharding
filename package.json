@@ -1,0 +1,27 @@
+{
+  "name": "URL_shortnening_and_sharding",
+  "version": "1.0.0",
+  "description": "table_sql.sql which holds the table definition get executed when Dockerfile build version is used to spin the docker container for postgres instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyash2796/URL_shortnening_and_sharding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyash2796/URL_shortnening_and_sharding/issues"
+  },
+  "homepage": "https://github.com/suyash2796/URL_shortnening_and_sharding#readme",
+  "dependencies": {
+    "consistent-hash": "^1.0.2",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "hashring": "^3.2.0",
+    "pg": "^8.6.0"
+  }
+}
